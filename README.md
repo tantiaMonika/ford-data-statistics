@@ -19,7 +19,7 @@ whenever a request for the same is received. The CSV file is placed in project r
 http://localhost:8080/fordDataStatistics/closeRates
 
 2. To access Average close over a period, open the browser and paste below url:-
-http://localhost:8080/fordDataStatistics/avgClose/{year}/{month}/{date}
-with providing values for parameters specified between {}. for example:http://localhost:8080/fordDataStatistics/avgClose/1990/2/21
-where year=1990, month=2 and date=21
+http://localhost:8080/fordDataStatistics/avgClose?year={year}&month={month}&day={day}
+with providing values for parameters specified between {}. for example:http://localhost:8080/fordDataStatistics/avgClose?year=1996&month=12&day=12
+where year=1996, month=12 and date=12
 *In above url, year is a mandetory parameter and month and date are optional parameters.*
